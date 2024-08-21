@@ -1,2 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ product.title }}</title>
+        <link rel="stylesheet" href="/assets/product.css">
+        <script src="/js/product.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <!-- Add your header content here -->
+        </header>
 
-{% block content %}{% endblock %}
+        <main>
+            {% block content %}
+            <!-- This is where the content from product.liquid will be inserted -->
+            {% endblock %}
+        </main>
+
+        <footer>
+            <!-- Add your footer content here -->
+        </footer>
+    </body>
+</html>
